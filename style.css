@@ -312,7 +312,7 @@ label #cancel{
 .quick-links ul li {
     list-style: none;
     text-align: center;
-    background-color: ##e8c39e; 
+    background-color: #e8c39e; 
     transition: background-color 0.3s ease, transform 0.3s ease;
     padding: 40px 10px; 
     width: 200px; 
@@ -645,12 +645,12 @@ label #cancel{
 .event h4 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #b9a168;
+    color: #7F4829;
     font-family: 'Arial', sans-serif;
 }
 
 .event .line{
-    background-color: #b9a168;
+    background-color: #7F4829;
     margin-left: -1px;
     width: 150px;
     height: 2px;
@@ -722,11 +722,11 @@ label #cancel{
 .news h4 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #b9a168;
+    color: #7F4829;
     font-family: 'Arial', sans-serif;
 }
 .news .line{
-    background-color: #b9a168;
+    background-color: #7F4829;
     margin-left: -1px;
     width: 150px;
     height: 2px;
@@ -746,7 +746,7 @@ label #cancel{
 
 .read-more {
     margin-top: 0.5rem;
-    color: #b9a168;
+    color: #7F4829;
     text-decoration: underline;
     font-weight: bold;
     cursor: pointer;
@@ -778,7 +778,7 @@ label #cancel{
 .line {
     width: 200px;
     height: 4px;
-    background: #e6cda5;
+    background: #7F4829;
     margin: 10px auto 20px auto;
     border-radius: 5px;
 }
@@ -815,7 +815,7 @@ label #cancel{
 .line {
     width: 200px;
     height: 4px;
-    background: #e6cda5;
+    background: #7F4829;
     margin: 10px auto 20px auto;
     border-radius: 5px;
 }
@@ -843,13 +843,13 @@ label #cancel{
 .courses-list h3 {
     font-size: 1.6rem;
     margin-bottom: 10px;
-    color: #b9a168;
+    color: #7F4829;
     font-family: "Dongle-bold", sans-serif;
     line-height: 1.2; /* Ensures tight alignment with paragraph */
 }
 
 .courses-list .line {
-    background-color: #b9a168;
+    background-color: #7F4829;
     line-height: 1.2;
     width: 150px;
     height: 2px;
@@ -899,7 +899,7 @@ label #cancel{
     position: absolute;
     left: 0;
     top: 0;
-    color: #e6cda5;
+    color: #7F4829;
     font-size: 1.4rem;
 }
 
@@ -919,7 +919,7 @@ label #cancel{
 }
 
 #apply-section .line{
-    background-color: #e6cda5;
+    background-color: #7F4829;
     margin-bottom: 1.5rem;
     width: 200px;
 }
@@ -962,7 +962,7 @@ label #cancel{
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #b9a168;
+    border-color: #7F4829;
     box-shadow: 0 0 5px rgba(185, 161, 104, 0.5);
 }
 
@@ -970,7 +970,7 @@ label #cancel{
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #b9a168;
+    background-color: #7F4829;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -1027,13 +1027,13 @@ label #cancel{
 
 .slide-text h4 {
     font-size: 1.8rem;
-    color: #b9a168;
+    color: #7F4829;
     margin-bottom: 10px;
     text-align: left;
 }
 
 .slide-text .line{
-    background-color: #b9a168;
+    background-color: #7F4829;
     margin-left: -1px;
     width: 150px;
     height: 2px;
@@ -1139,13 +1139,13 @@ label #cancel{
 
 .column h3{
     font-size: 1.8rem;
-    color: #b9a168;
+    color: #7F4829;
     margin-bottom: 10px;
     text-align: left;
 }
 
 .column .line{
-    background-color: #b9a168;
+    background-color: #7F4829;
     margin-left: -1px;
     width: 150px;
     height: 2px;
@@ -1326,7 +1326,7 @@ footer{
 }
 
 .footer-widget:not(:last-child){
-    border-right: 1px solid #e8c39e; 
+    border-right: 1px solid #7F4829; 
     padding-right: 20px;
 }
 .wrapper .footer-widget .logo-footer{
@@ -1355,7 +1355,7 @@ footer{
     height: 44px;
     margin-right: 10px;
     color: #fff;
-    background-color: ;
+    background-color:#bebebe ;
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
@@ -1396,7 +1396,7 @@ footer{
 
 .copyright{
     padding: 20px 0;
-    border-top: 1px solid  #e8c39e;
+    border-top: 1px solid  #7F4829;
 }
 
 .copyright p{
