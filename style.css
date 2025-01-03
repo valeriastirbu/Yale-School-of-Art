@@ -228,11 +228,11 @@ label #cancel{
 
 #home h2
 ,#home-about h1
-,#home-apply h2
-,#home-community h2
-,#home-event h2
-,#home-news h2
-,#home-publication h2{
+,#home-apply h1
+,#home-community h1
+,#home-event h1
+,#home-news h1
+,#home-publication h1{
     color: white ;
     font-size: 2.2rem;
     letter-spacing: 1px;
