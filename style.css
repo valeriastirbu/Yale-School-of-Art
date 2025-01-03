@@ -272,7 +272,7 @@ label #cancel{
     text-decoration: none;
     font-size: 0.9rem;
     color: #ffffff;
-    background-color: #e6d0ad;
+    background-color: rgb(191, 126, 50);
     font-weight: 600;
     border-radius: 20px;
     padding: 10px 20px;
@@ -288,7 +288,7 @@ label #cancel{
 ,#home-news #editor-details:hover
 ,#home-publication #editor-details:hover{
     background-color: #ffffff;
-    color: #e6d0ad;
+    color: rgb(145, 97, 41);
     transform: scale(1.03);
     border-color: #e6d0ad;
 
