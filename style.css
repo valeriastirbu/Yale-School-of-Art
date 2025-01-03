@@ -312,7 +312,7 @@ label #cancel{
 .quick-links ul li {
     list-style: none;
     text-align: center;
-    background-color: #c8ad7d; 
+    background-color: ##e8c39e; 
     transition: background-color 0.3s ease, transform 0.3s ease;
     padding: 40px 10px; 
     width: 200px; 
@@ -335,7 +335,7 @@ label #cancel{
 }
 
 .quick-links ul li:hover a , .quick-links ul li:hover i{
-    color: #c8ad7d; 
+    color: #e8c39e; 
 }
 
 .quick-links ul li a i {
@@ -1326,7 +1326,7 @@ footer{
 }
 
 .footer-widget:not(:last-child){
-    border-right: 1px solid #fff; 
+    border-right: 1px solid #e8c39e; 
     padding-right: 20px;
 }
 .wrapper .footer-widget .logo-footer{
@@ -1400,7 +1400,7 @@ footer{
 }
 
 .copyright p{
-    color: #666;
+    color: #fff;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
