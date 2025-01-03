@@ -290,7 +290,7 @@ label #cancel{
     background-color: #ffffff;
     color: rgb(145, 97, 41);
     transform: scale(1.03);
-    border-color: #e6d0ad;
+    border-color: #7F4829;
 
 
 }
@@ -480,7 +480,7 @@ label #cancel{
     padding: 7px 10px; 
     font-size:0.9rem; 
     color: #fff; 
-    background-color: #e6cda5; 
+    background-color: #7F4829; 
     border: none; 
     border-radius: 20px; 
     text-decoration: none; 
