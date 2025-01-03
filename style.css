@@ -298,7 +298,7 @@ label #cancel{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e6d0ad;
+    background-color: #e8c39e;
     overflow: visible !important;
     visibility: visible;
 }
@@ -312,7 +312,7 @@ label #cancel{
 .quick-links ul li {
     list-style: none;
     text-align: center;
-    background-color: #e6d0ad; 
+    background-color: #e8c39e; 
     transition: background-color 0.3s ease, transform 0.3s ease;
     padding: 40px 10px; 
     width: 200px; 
@@ -335,7 +335,7 @@ label #cancel{
 }
 
 .quick-links ul li:hover a , .quick-links ul li:hover i{
-    color: #e6d0ad; 
+    color: #e8c39e; 
 }
 
 .quick-links ul li a i {
