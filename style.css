@@ -10,7 +10,7 @@ body{
 }
 nav{
     height: 90px;
-    background: rgba(156, 114, 64);
+    background: rgba(106, 74, 34, 1);
     width: 100%;
     position: fixed;
     z-index: 100;
