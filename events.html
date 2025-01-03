@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/3f9014fe3c.js" crossorigin="anonymous"></script>
+
+    <title> Upcoming Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+       
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fa fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <a href="index.html"> <img src="images/logo.png" alt="Nav logo"> </a>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="publications.html">Publication</a></li>
+            <li><a href="news.html">News</a></li>
+         </ul>
+    </nav>
+
+    <section id="home-event"> 
+        <h2>PUBLIC EVENTS
+            <br>
+            HOSTED BY THE YALE SCHOOL OF ART</h2>
+        <p>Welcome to the School of Art’s public events calendar, initiated in the summer of 2020. 
+        </p>
+        <div class="btn">
+            <button id="editor-details" class="editor-details">Editor details</button>
+        </div>
+    </section>
+
+    <div class="quick-links">
+        <ul>
+            <li>
+                <a href="events.html">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span>Events Calendar</span>
+                </a>
+            </li>
+            <li>
+                <a href="apply.html">
+                    <i class="fa-solid fa-file-signature"></i>
+                    <span>Apply to Join Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="news.html">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <span>Our Latest News</span>
+                </a>
+            </li>
+            <li>
+                <a href="community.html">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <span>Community Bulletin Board</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section id="events-list">
+        <h3>Upcoming Events</h3>
+        <div class="line"></div>
+        <div class="event">
+            <h4>Gallery Opening: Vision & Imagination</h4>
+            <div class="line"></div>
+            <div class="event-content">
+                <div class="event-text">
+                    <p>Date: January 15, 2024</p>
+                    <p>Time: 6:00 PM - 9:00 PM</p>
+                    <p>Location: Yale School of Art Gallery</p>
+                    <p>Description: Join us for the opening of our latest exhibition, showcasing groundbreaking works by emerging artists.</p>
+                </div>
+                <img src="images/gallery-opening.jpeg" alt="Gallery opening poster" />
+            </div>
+        </div>
+        <div class="event">
+            <h4>Workshop: Exploring Mixed Media</h4>
+            <div class="line"></div>
+            <div class="event-content">
+                <div class="event-text">
+                    <p>Date: January 20, 2024</p>
+                    <p>Time: 1:00 PM - 4:00 PM</p>
+                    <p>Location: Studio 3A</p>
+                    <p>Description: A hands-on workshop exploring techniques in mixed media art. Open to all skill levels.</p>
+                </div>
+                <img src="images/mixed-media.jpeg" alt="Mixed media workshop poster" />
+            </div>
+        </div>
+        <div class="event">
+            <h4>Lecture: The Future of Digital Art</h4>
+            <div class="line"></div>
+            <div class="event-content">
+                <div class="event-text">
+                    <p>Date: January 25, 2024</p>
+                    <p>Time: 5:00 PM - 6:30 PM</p>
+                    <p>Location: Auditorium</p>
+                    <p>Description: A thought-provoking lecture by renowned digital artist Alex Rivera on the evolving landscape of digital art.</p>
+                </div>
+                <img src="images/digital-art.avif" alt="Digital art lecture poster" />
+            </div>
+        </div>
+        <div class="event">
+            <h4>Panel Discussion: Women in Art</h4>
+            <div class="line"></div>
+            <div class="event-content">
+                <div class="event-text">
+                    <p>Date: February 1, 2024</p>
+                    <p>Time: 3:00 PM - 5:00 PM</p>
+                    <p>Location: Conference Room B</p>
+                    <p>Description: A panel of distinguished female artists and scholars discuss the role and representation of women in contemporary art.</p>
+                </div>
+                <img src="images/women-in-art.webp" alt="Women in art panel discussion poster" />
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <script>
+            
+        document.getElementById("editor-details").addEventListener("click", function() {
+            if (this.textContent === "Editor details") {
+                this.textContent = "Last edited by: Lindsey Mancini";
+            } else {
+                this.textContent = "Editor details";
+            }
+        });
+
+        function searchCourse() {
+            var query = document.getElementById("courseSearch").value;
+             alert("You searched for: " + query); // Replace with actual search functionality
+        };
+
+    </script>
+        
+    
+        <footer>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="footer-widget">
+                        <a href="index.html">
+                            <img src="images/logo.png" class="logo-footer" alt="Logo footer">
+                        </a>
+                        <p class="desc">
+                            Explore the Yale School of Art, where creativity meets innovation. Discover 
+                            programs, exhibitions, and resources that empower artists to shape the future of visual arts.
+                        </p>
+                        
+                        <ul class="socials">
+                            <li>
+                                <a href="#"> 
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> 
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li><li>
+                                <a href="#"> 
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li><li>
+                                <a href="#"> 
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h6>Services</h6>
+                        <ul class="links">
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Live Chat</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h6>Contact Us</h6>
+                        <ul class="links">
+                            <li>Phone: (203) 432-2600</li>
+                            <li>Fax: (203) 432-1234</li>
+                            <li>Office Hours: Mon–Fri, 9 AM–5 PM</li>
+                            <li>Email: info@yaleart.edu</li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h6>Our Address</h6>
+                        <ul class="links">
+                            <li>Yale School of Art</li>
+                            <li>1156 Chapel Street</li>
+                            <li>New Haven, Connecticut</li>
+                            <li>06511</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2024 Yale School of Art. All rights reserved. (Goldsmith - UX&UI assessment)</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

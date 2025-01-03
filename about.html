@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/3f9014fe3c.js" crossorigin="anonymous"></script>
+
+    <title> About US </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+       
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <a href="index.html"> <img src="images/logo.png" alt="Nav logo"> </a>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="publications.html">Publication</a></li>
+                <li><a href="news.html">News</a></li>
+             </ul>
+        </nav>
+
+        <section id="home-about"> 
+            <h2> About Us </h2>
+            <p>The Yale School of Art is a graduate school that confers masters of fine arts degrees in Graphic Design, Painting/Printmaking, Photography, and Sculpture
+            </p>
+            <div class="btn">
+                <button id="editor-details" class="editor-details">Editor details</button>
+            </div>
+        </section>
+
+        <div class="quick-links">
+            <ul>
+                <li>
+                    <a href="events.html">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>Events Calendar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="apply.html">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>Apply to Join Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Our Latest News</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="community.html">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <span>Community Bulletin Board</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <section id="about-details" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Yale School of Art</h2>
+                <div class="line"></div>
+                <div class="row">
+                    <div class="column">
+                        <img src="images/artdegree.jpeg" alt="Graphic Design" class="about-image">
+                    </div>
+                    <div class="column">
+                        <h3>
+                            MASTER OF FINE ARTS DEGREE (MFAS)
+                        </h3>
+                        <div class="line"></div>
+                            <p>
+                            The degree of Master of Fine Arts is the only degree offered by the School of Art. It is conferred by the University upon recommendation of the faculty after successful completion of all course work in residence and after a thesis presentation that has been approved by the faculty. It implies distinctive achievement on the part of students in studies in the professional area of their choice and demonstrated capacity for independent work.
+                            <br><br>
+                            Course work for the Master of Fine Arts degree carries a minimum of sixty credits. The disposition of these credits varies 
+                         </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>
+                            PUBLIC LECTURES AND EXHIBITIONS
+                        </h3>
+                        <div class="line"></div>
+                        <p>
+                            Each department has its own visitor program in which professionals from outside the School are invited to lecture to students or take part in critiques.
+                            <br><br>
+                            The School also facilitates a public all-school lecture program in which ideas of general and cross-disciplinary importance are explored by visiting artists and members of the faculty in events typically hosted in the evening that are free and open to the public.
+                            <br><br>
+                            The School of Art’s galleries in Green Hall and at 32 Edgewood Avenue provide a year-round forum for the exhibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. 
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="images/public_lecture.jpeg" alt="Painting Studio" class="about-image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="images/graduation.jpeg" alt="Sculpture Workshop" class="about-image">
+                    </div>
+                 
+                    <div class="column">
+                        <h3>
+                        THE YALE SCHOOL OF ART IS A GRADUATE SCHOOL THAT CONFERS MASTER OF FINE ARTS DEGREES.
+                        </h3>
+                        <div class="line"></div>
+                        <p>
+                            Artists and designers of unusual promise and strong motivation are provided an educational context in which they can explore the potential of their own talents in the midst of an intense critical dialogue. This dialogue is generated by their peers, by distinguished visitors, and by a faculty comprised of professional artists of acknowledged accomplishment.
+                            <br><br>
+                            The graduate student’s primary educational experience at Yale is centered on the student’s own studio activity. Supporting this enterprise are the experience, knowledge, and skills gained from rigorous, structured courses such as drawing, filmmaking, the relativity of color, and the rich academic offerings found throughout Yale. Each student is routinely exposed to many aesthetic positions .
+                            <br><br>
+                            The School of Art offers an undergraduate art major for students in Yale College (see the bulletin Yale College Programs of Study).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <script>
+            
+            document.getElementById("editor-details").addEventListener("click", function() {
+                if (this.textContent === "Editor details") {
+                    this.textContent = "Last edited by: Valeria Stirbu";
+                } else {
+                    this.textContent = "Editor details";
+                }
+            });
+
+            function searchCourse() {
+                var query = document.getElementById("courseSearch").value;
+                 alert("You searched for: " + query); // Replace with actual search functionality
+            };
+
+        </script>
+            
+            <footer>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="footer-widget">
+                            <a href="index.html">
+                                <img src="images/logo.png" class="logo-footer" alt="Logo footer">
+                            </a>
+                            <p class="desc">
+                                Explore the Yale School of Art, where creativity meets innovation. Discover 
+                                programs, exhibitions, and resources that empower artists to shape the future of visual arts.
+                            </p>
+                            
+                            <ul class="socials">
+                                <li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li><li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li><li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Services</h6>
+                            <ul class="links">
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Contact Us</h6>
+                            <ul class="links">
+                                <li>Phone: (203) 432-2600</li>
+                                <li>Fax: (203) 432-1234</li>
+                                <li>Office Hours: Mon–Fri, 9 AM–5 PM</li>
+                                <li>Email: info@yaleart.edu</li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Our Address</h6>
+                            <ul class="links">
+                                <li>Yale School of Art</li>
+                                <li>1156 Chapel Street</li>
+                                <li>New Haven, Connecticut</li>
+                                <li>06511</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2024 Yale School of Art. All rights reserved. (Goldsmith - UX&UI assessment)</p>
+                    </div>
+                </div>
+            </footer>
+        
+    </body>
+</html>

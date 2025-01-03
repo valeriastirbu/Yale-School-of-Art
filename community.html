@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/3f9014fe3c.js" crossorigin="anonymous"></script>
+
+    <title> Community Bulletin </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+       
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <a href="index.html"> <img src="images/logo.png" alt="Nav logo"> </a>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="publications.html">Publication</a></li>
+                <li><a href="news.html">News</a></li>
+             </ul>
+        </nav>
+
+        <section id="home-community"> 
+            <h2> COMMUNITY BULLETIN BOARD </h2>
+            <p>Stay informed and inspired with the latest updates, events, and opportunities shared by the vibrant SoA community. 
+            </p>
+            <div class="btn">
+                <button id="editor-details" class="editor-details">Editor details</button>
+            </div>
+        </section>
+
+        <div class="quick-links">
+            <ul>
+                <li>
+                    <a href="events.html">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>Events Calendar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="apply.html">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>Apply to Join Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Our Latest News</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="community.html">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <span>Community Bulletin Board</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <section id="community">
+            <div class="sticky-one">
+                <div class="pinned">
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
+                    <div class="date-box">
+                        <span class="date">Kris Mandelbaum</span>
+                        
+                    </div>
+                    <div class="tape-box">
+                        <img src="images/tape.png" alt="Tape">
+                    </div>
+                    <div class="notes">
+                        <p class="heading">FROM OUR FRIENDS AT THE YALE CENTER FOR ENVIRONMENTAL JUSTICE</p>
+                        <p class="content-note"> in the process of planning our fourth annual Global Environmental Justice Conference, with this year focusing on the theme of “Environmental Joy.” The conference aims to explore the ways in which environmental and climate justice and the communities engaged in that work generate joy. Guided by the notion that the ultimate goal of most environmental and climate work is to alleviate suffering and increase wellbeing, Environmental Joy will explore and celebrate the diverse ways that environmental justice achieves this goal.</p>
+                    </div>
+            </div>
+            <div class="sticky-one">
+                <div class="pinned">
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
+                    <div class="date-box">
+                        <span class="date"> Lindsey Mancini</span>
+                        
+                    </div>
+                    <div class="tape-box">
+                        <img src="images/tape.png" alt="Tape">
+                    </div>
+                    <div class="notes">
+                        <p class="heading">FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP</p>
+                        <p class="content-note"> The Yale Arts Apprenticeship Program is an initiative that connects Yale undergraduates, particularly those on financial aid, with professional arts practitioners of any discipline. As an option within Yale’s Summer Experience Award (SEA) funding model, the Arts Apprenticeship must fulfill the same basic requirements. Additional details, as well as those specific to the Arts Apprenticeship are included below. Yale faculty, alumni, or other arts practitioners interested in featuring positions through the program should contact Yale’s Creative Careers advisor.</p>
+                    </div>
+            </div>
+            <div class="sticky-one">
+                <div class="pinned">
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
+                    <div class="date-box">
+                        <span class="date">Pamela Redmond</span>
+                        
+                    </div>
+                    <div class="tape-box">
+                        <img src="images/tape.png" alt="Tape">
+                    </div>
+                    <div class="notes">
+                        <p class="heading">MAPPING PUBLIC ART IN NEW HAVEN</p>
+                        <p class="content-note"> Hey everyone! I’ve been mapping public art in New Haven as part of my nonprofit project ArtAround and I’d love to invite you to join me, or just check it out and see what you think. One facet of the conference programming we hope to organize is a juried art show soliciting works from artists around the world on the theme of Environmental Joy to be showcased in an exhibition during the conference. We are currently seeking any interested students or faculty who would be interested in supporting the planning and execution of this call for art. If you’re interested in learning more about the opportunity, please contact Julia Simon at julia.simon@yale.edu.com</p>
+                    </div>
+            </div>
+            <div class="sticky-one">
+                <div class="pinned">
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
+                    <div class="date-box">
+                        <span class="date">Allen Andreson </span>
+                        
+                    </div>
+                    <div class="tape-box">
+                        <img src="images/tape.png" alt="Tape">
+                    </div>
+                    <div class="notes">
+                        <p class="heading">BUT WE CAN’T DO ANY OF THIS WITHOUT YOUR HELP</p>
+                        <p class="content-note"> 
+                            As a fiscally-sponsored nonprofit, ArtAround is a labor of love that relies on the generosity of our amazing community of supporters. A donation—in any amount—helps keep ArtAround online and accessible to all.
+                            <br><br>
+                            If your organization or business is interested in archiving the art in your neighborhood, become an Acquisition, Archival, or App Sponsor and bring your community’s art to the map.The engagement for an Arts Apprenticeship should be directly with an individual Arts Practitioner and not with a company. The only exception to this would be if the company overseeing the apprenticeship were a registered non-profit organization.
+                            </p>
+                    </div>
+            </div>
+
+        </section>
+
+
+        <script>
+            
+            document.getElementById("editor-details").addEventListener("click", function() {
+                if (this.textContent === "Editor details") {
+                    this.textContent = "Last edited by: Valeria Stirbu ";
+                } else {
+                    this.textContent = "Editor details";
+                }
+            });
+
+            function searchCourse() {
+                var query = document.getElementById("courseSearch").value;
+                 alert("You searched for: " + query); // Replace with actual search functionality
+            };
+
+        </script>
+            
+        
+            <footer>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="footer-widget">
+                            <a href="index.html">
+                                <img src="images/logo.png" class="logo-footer" alt="Logo footer">
+                            </a>
+                            <p class="desc">
+                                Explore the Yale School of Art, where creativity meets innovation. Discover 
+                                programs, exhibitions, and resources that empower artists to shape the future of visual arts.
+                            </p>
+                            
+                            <ul class="socials">
+                                <li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li><li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li><li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Services</h6>
+                            <ul class="links">
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Contact Us</h6>
+                            <ul class="links">
+                                <li>Phone: (203) 432-2600</li>
+                                <li>Fax: (203) 432-1234</li>
+                                <li>Office Hours: Mon–Fri, 9 AM–5 PM</li>
+                                <li>Email: info@yaleart.edu</li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Our Address</h6>
+                            <ul class="links">
+                                <li>Yale School of Art</li>
+                                <li>1156 Chapel Street</li>
+                                <li>New Haven, Connecticut</li>
+                                <li>06511</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2024 Yale School of Art. All rights reserved. (Goldsmith - UX&UI assessment)</p>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/3f9014fe3c.js" crossorigin="anonymous"></script>
+
+    <title> Apply Here </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+       
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <a href="index.html"> <img src="images/logo.png" alt="Nav logo"> </a>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="publications.html">Publication</a></li>
+                <li><a href="news.html">News</a></li>
+             </ul>
+        </nav>
+
+        <section id="home-apply"> 
+            <h2> Apply to the School </h2>
+            <p>The Application for Fall 2025 Admission to Yale’s MFA program is open. 
+            </p>
+            <div class="btn">
+                <button id="editor-details" class="editor-details">Editor details</button>
+            </div>
+        </section>
+
+        <div class="quick-links">
+            <ul>
+                <li>
+                    <a href="events.html">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>Events Calendar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="apply.html">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>Apply to Join Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Our Latest News</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="community.html">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <span>Community Bulletin Board</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <section id="courses-section">
+            <h2>Explore Our Courses</h2>
+            <div class="line"></div>
+            <p>
+                Yale School of Art offers diverse programs to nurture creative talents and foster artistic innovation. Below are the primary courses available:
+            </p>
+            <ul class="courses-list">
+                <li>
+                    <h3>MFA in Painting/Printmaking</h3>
+                    <div class="line"></div>
+                    <p>
+                        Explore cutting-edge techniques in painting and printmaking, emphasizing creative experimentation, conceptual exploration, and critical thinking to develop a deeper understanding of artistic processes and contemporary visual practices.
+                    </p>
+                </li>
+                <li>
+                    <h3>MFA in Sculpture</h3>
+                    <div class="line"></div>
+                    <p>
+                        Enhance your sculptural practice by exploring both innovative and traditional techniques, utilizing our state-of-the-art studios to push creative boundaries and refine your skills in a dynamic, hands-on environment.
+                    </p>
+                </li>
+                <li>
+                    <h3>MFA in Graphic Design</h3>
+                    <div class="line"></div>
+                    <p>
+                        Cultivate advanced skills in visual communication, digital media, and print design, mastering techniques to create visually compelling and impactful designs that effectively convey messages across diverse platforms and audiences.
+                    </p>
+                </li>
+                <li>
+                    <h3>MFA in Photography</h3>
+                    <div class="line"></div>
+                    <p>
+                        Hone your photographic skills through courses that focus on technical expertise, while exploring contemporary practices and creative approaches to capture compelling images and push the boundaries of visual storytelling.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="entry-requirements-section">
+            <h2>Entry Requirements</h2>
+            <div class="line"></div>
+            <p>
+                Before applying to Yale School of Art, ensure you meet the following requirements:
+            </p>
+            <ul class="requirements-list">
+                <li>A bachelor’s degree from an accredited institution or equivalent qualification.</li>
+                <li>A strong portfolio showcasing your artistic abilities and creativity.</li>
+                <li>A completed application form, including a personal statement.</li>
+                <li>Two letters of recommendation from professionals or academics.</li>
+                <li>English language proficiency for non-native speakers (TOEFL/IELTS).</li>
+            </ul>
+            <p>
+                Meeting these requirements ensures your application is eligible for review by our admissions committee.
+            </p>
+        </section>
+
+
+        <section id="apply-section">
+            <h2>Apply Now</h2>
+            <div class="line"></div>
+            <p>
+                Take the next step toward joining the Yale School of Art. Complete the application form below to apply for our prestigious MFA program. Ensure all fields are filled accurately before submitting your application.
+            </p>
+            <form id="apply-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="portfolioLink">Portfolio Link</label>
+                    <input type="url" id="portfolioLink" name="portfolioLink" placeholder="Enter your portfolio URL" required>
+                </div>
+                <div class="form-group">
+                    <label for="statement">Personal Statement</label>
+                    <textarea id="statement" name="statement" rows="4" placeholder="Write your personal statement here..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </section>
+        
+
+        <script>
+            
+            document.getElementById("editor-details").addEventListener("click", function() {
+                if (this.textContent === "Editor details") {
+                    this.textContent = "Last edited by: Valeria Stirbu";
+                } else {
+                    this.textContent = "Editor details";
+                }
+            });
+
+            function searchCourse() {
+                var query = document.getElementById("courseSearch").value;
+                 alert("You searched for: " + query); // Replace with actual search functionality
+            };
+
+        </script>
+            
+        
+            <footer>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="footer-widget">
+                            <a href="index.html">
+                                <img src="images/logo.png" class="logo-footer" alt="Logo footer">
+                            </a>
+                            <p class="desc">
+                                Explore the Yale School of Art, where creativity meets innovation. Discover 
+                                programs, exhibitions, and resources that empower artists to shape the future of visual arts.
+                            </p>
+                            
+                            <ul class="socials">
+                                <li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li><li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li><li>
+                                    <a href="#"> 
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Services</h6>
+                            <ul class="links">
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Contact Us</h6>
+                            <ul class="links">
+                                <li>Phone: (203) 432-2600</li>
+                                <li>Fax: (203) 432-1234</li>
+                                <li>Office Hours: Mon–Fri, 9 AM–5 PM</li>
+                                <li>Email: info@yaleart.edu</li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h6>Our Address</h6>
+                            <ul class="links">
+                                <li>Yale School of Art</li>
+                                <li>1156 Chapel Street</li>
+                                <li>New Haven, Connecticut</li>
+                                <li>06511</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2024 Yale School of Art. All rights reserved. (Goldsmith - UX&UI assessment)</p>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>
