@@ -1258,7 +1258,7 @@ label #cancel{
     margin-bottom: 50px;
 }
 
-.notes .heading{
+.notes h2{
     font-weight: bold;
     font-size: 1.5em;
     color: #666;
