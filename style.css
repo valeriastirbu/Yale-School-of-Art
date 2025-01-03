@@ -599,7 +599,7 @@ label #cancel{
     font-family: 'Arial', sans-serif;
 }
 
-#events-list h3 {
+#events-list h2 {
     font-size: 2em;
     color: #333;
     margin-bottom: 20px;
@@ -642,7 +642,7 @@ label #cancel{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.event h4 {
+.event h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: #7F4829;
@@ -676,7 +676,7 @@ label #cancel{
     font-family: 'Arial', sans-serif;
 }
 
-#news-list h3 {
+#news-list h2 {
     font-size: 2em;
     color: #333;
     margin-bottom: 20px;
@@ -719,7 +719,7 @@ label #cancel{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.news h4 {
+.news h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: #7F4829;
