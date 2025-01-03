@@ -10,7 +10,7 @@ body{
 }
 nav{
     height: 90px;
-    background: rgba(106, 74, 34, 1);
+    background: rgba(143, 95, 39);
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -37,7 +37,7 @@ nav ul li{
 
 nav ul li a{
     position: relative;
-    color: white;
+    color: #FFFFFF;
     font-size: 18px;
     padding: 5p;
     text-transform: uppercase;
