@@ -272,7 +272,7 @@ label #cancel{
     text-decoration: none;
     font-size: 0.9rem;
     color: #ffffff;
-    background-color: rgb(191, 126, 50);
+    background-color: #7F4829;
     font-weight: 600;
     border-radius: 20px;
     padding: 10px 20px;
@@ -312,7 +312,7 @@ label #cancel{
 .quick-links ul li {
     list-style: none;
     text-align: center;
-    background-color: #e8c39e; 
+    background-color: #c8ad7d; 
     transition: background-color 0.3s ease, transform 0.3s ease;
     padding: 40px 10px; 
     width: 200px; 
@@ -335,7 +335,7 @@ label #cancel{
 }
 
 .quick-links ul li:hover a , .quick-links ul li:hover i{
-    color: #e8c39e; 
+    color: #c8ad7d; 
 }
 
 .quick-links ul li a i {
@@ -455,7 +455,7 @@ label #cancel{
 .line{
     width: 200px;
     height: 4px;
-    background: #e6cda5;
+    background: #7F4829;
     margin: 10px auto;
     border-radius: 5px;
 }
