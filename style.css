@@ -991,7 +991,7 @@ label #cancel{
     padding: 20px;
 }
 
-#publications-slideshow h3 {
+#publications-slideshow h2 {
     font-size: 2em;
     color: #333;
     margin-bottom: 20px;
@@ -1025,7 +1025,7 @@ label #cancel{
     width: 60%;
 }
 
-.slide-text h4 {
+.slide-text h3 {
     font-size: 1.8rem;
     color: #7F4829;
     margin-bottom: 10px;
@@ -1039,7 +1039,7 @@ label #cancel{
     height: 2px;
 }
 
-.slide-text h5 {
+.slide-text h4 {
     font-size: 1.2rem;
     color: #8d8c8c;
     margin-bottom: 15px;
